@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+body{
+  height: 100vh;
+  font-family: arial
+}

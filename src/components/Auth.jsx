@@ -1,0 +1,3 @@
+/*
+    This is the component page for the Login and Register Pages.
+*/
