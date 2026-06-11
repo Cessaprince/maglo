@@ -54,8 +54,7 @@ const Card = () => {
                         <div className="flex justify-between items-center">
                             <span className='text-gray-500 text-sm text-light'>09/25</span>
                              <div className="w-[30px] h-[20px] overflow-hidden rounded-[5px]">
-                            <img src={visa} alt="" className='w-full h-full cover' />
-                        </div>
+                            </div>
                         </div>
                     </div>
 
