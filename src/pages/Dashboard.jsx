@@ -1,11 +1,6 @@
-import React from "react";
+import { Outlet } from "react-router-dom";
 import Sidebar from "../components/Sidebar";
 import Heading from "../components/Heading";
-import Home from "./Home";
-import Transaction from "./Transaction";
-import Invoice from "./Invoice";
-import Invoice2 from "./Invoice2";
-import Card from "../components/Card";
 
 const Dashboard = () => {
   return (
@@ -16,7 +11,7 @@ const Dashboard = () => {
         <Heading />
 
         <main className="px-10">
-          <Card/>
+          <Outlet />
         </main>
       </div>
     </div>

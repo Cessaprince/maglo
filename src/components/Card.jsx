@@ -7,7 +7,7 @@ import visa from '../assets/images/visa.png'
 const Card = () => {
     return (
         <div>
-            <div className='w-[350px] relative'>
+            <div className='w-[350px] relative pb-32'>
                 <div className="blackcard h-auto bg-black px-7 py-5 rounded-[10px] flex flex-col gap-4 w-full relative">
                     <div className='flex gap-2 items-center'>
                         <span className="text-white font-semibold">Maglo.</span>
@@ -54,6 +54,8 @@ const Card = () => {
                         <div className="flex justify-between items-center">
                             <span className='text-gray-500 text-sm text-light'>09/25</span>
                              <div className="w-[30px] h-[20px] overflow-hidden rounded-[5px]">
+                                <img src={visa} alt="" className='w-full h-full cover' />
+
                             </div>
                         </div>
                     </div>

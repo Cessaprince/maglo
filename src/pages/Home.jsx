@@ -1,12 +1,13 @@
 import React from 'react'
 import graph from '../assets/images/Graph.png'
 import userImg from '../assets/images/user-img.jpg'
+import Card from '../components/Card'
 
 
 const Home = () => {
     return (
         <div>
-            <div className="flex gap-10">
+            <div className="flex gap-15">
 
                 {/*The left side*/}
                 <div className="home-left w-[630px] flex flex-col gap-7">
@@ -146,13 +147,20 @@ const Home = () => {
 
                 {/*The right side */}
                 <div className="home-right flex flex-col flex-1 gap-5">
-
-                    <div className="transfers-head flex justify-between mt-[70%]">
+                  
+                    {/* The card will be here */}
+                    <div className="flex justify-center items-center">
+                        <Card />
+                    </div>
+                    
+                    
+                    <div className="transfers-head flex justify-between">
                         <h3 className='text-lg font-[520]'>Scheduled Transfers</h3>
                         <a href="" className='text-sm text-green-800 hover:pointer hover:text-green-500'>View All →</a>
                     </div>
 
-                    <div className="transfers flex flex-col gap-5">
+
+                    <div className="transfers flex flex-col gap-5 mb-10">
 
                         {/*users and their transfer history */}
                         <div className="user-transfers flex justify-between items-center">

@@ -11,7 +11,7 @@ const Invoice = () => {
                 </div>
 
                 <div className='flex gap-5 items-center'>
-                    <a href="#" className='inline-flex gap-2 items-center bg-lime-500 px-4 py-3 rounded-[15px] hover:bg-lime-300 hover:cursor-pointer'>
+                    <a href="invoice2" className='inline-flex gap-2 items-center bg-lime-500 px-4 py-3 rounded-[15px] hover:bg-lime-300 hover:cursor-pointer'>
                         <i className="fa-solid fa-file-invoice-dollar"></i>
                         <span>Create Invoice</span>
                     </a>
