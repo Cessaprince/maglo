@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Settings1 = () => {
     return (
@@ -12,7 +13,7 @@ const Settings1 = () => {
 
                     <div className="flex justify-between items-center">
                         <h3 className='text-lg font-semibold mt-3'>Personal Information</h3>
-                        <a href="/dashboard/settings2" className='text-green-700 inline-flex gap-2 font-semibold capitalize items-center hover:text-green-500'><i className="fa-solid fa-pencil"></i>edit</a>
+                        <Link to="/dashboard/settings2" className='text-green-700 inline-flex gap-2 font-semibold capitalize items-center hover:text-green-500'><i className="fa-solid fa-pencil"></i>edit</Link>
                     </div>
 
                     <div>

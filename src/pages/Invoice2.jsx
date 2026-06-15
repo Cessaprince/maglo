@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import logo from '../assets/images/logo-white.png'
 import personImg from '../assets/images/person.png'
 import verified from '../assets/images/verified.png'
@@ -75,7 +76,7 @@ const Invoice2 = () => {
 
                         <div className='flex justify-between mt-4 w-full border-t border-gray-100 pt-4'>
                             <div className='w-[60%]'>
-                                <a href="" className='text-xs font-semibold text-green-700 hover:text-green-500'>Add item</a>
+                                <Link to="" className='text-xs font-semibold text-green-700 hover:text-green-500'>Add item</Link>
                             </div>
 
                             <div className="flex justify-between flex-1">
@@ -94,10 +95,10 @@ const Invoice2 = () => {
                                     <div className='flex flex-col gap-3 pb-3'>
                                         <span className='text-xs font-bold'>$664.00</span>
                                         <span className='text-xs font-bold'>
-                                            <a href="" className='text-xs font-semibold text-green-700 hover:text-green-500'>Add</a>
+                                            <Link to="" className='text-xs font-semibold text-green-700 hover:text-green-500'>Add</Link>
                                         </span>
                                         <span className='text-xs font-bold'>
-                                            <a href="" className='text-xs font-semibold text-green-700 hover:text-green-500'>Add</a>
+                                            <Link to="" className='text-xs font-semibold text-green-700 hover:text-green-500'>Add</Link>
                                         </span>
                                     </div>
                                     <div className='border-t border-gray-200 pt-1'>
@@ -116,7 +117,7 @@ const Invoice2 = () => {
                     <div className='flex flex-col border-gray-200 rounded-[10px] bg-zinc-50 p-5 gap-3 h-auto'>
                         <div className='flex justify-between'>
                             <span className='text-sm font-bold'>Client Details</span>
-                            <a href="" className='text-gray-600 hover:text-gray-400'>•••</a>
+                            <Link to="" className='text-gray-600 hover:text-gray-400'>•••</Link>
                         </div>
 
                         <div className='flex gap-2 items-center'>
@@ -140,7 +141,7 @@ const Invoice2 = () => {
                             </div>
                             <span className='text-sm font-light text-gray-400 capitalize'>3471 rainy day drive tulsa, USA</span>
 
-                            <a href="" className='text-green-600 text-center text-sm font-bold p-3 bg-green-100 mt-3 rounded-[10px] hover:bg-green-300 hover:text-green-900'>Add Customer</a>
+                            <Link to="" className='text-green-600 text-center text-sm font-bold p-3 bg-green-100 mt-3 rounded-[10px] hover:bg-green-300 hover:text-green-900'>Add Customer</Link>
                         </div>
 
                     </div>
@@ -155,17 +156,17 @@ const Invoice2 = () => {
                             <span className='text-sm font-light text-gray-400 capitalize'>due date</span>
                             <input type="date" name="" id="" className='border-[0.1px] py-2 px-5 rounded-[10px] border-gray-300 font-bold' value="2022-04-20"/>
                         </div>
-                        <a href="" className='text-center text-sm font-bold p-3 bg-lime-400 mt-3 rounded-[10px] hover:bg-lime-300'>Add Customer</a>
+                        <Link to="" className='text-center text-sm font-bold p-3 bg-lime-400 mt-3 rounded-[10px] hover:bg-lime-300'>Add Customer</Link>
                         <div className="flex gap-5 mt-2">
-                            <a href="" className='flex gap-2 justify-center items-center py-3 px-5 border-[0.1px] rounded-[10px] bg-gray-200 border-gray-100 text-green-800 hover:bg-gray-300 w-[50%] font-semibold'>
+                            <Link to="" className='flex gap-2 justify-center items-center py-3 px-5 border-[0.1px] rounded-[10px] bg-gray-200 border-gray-100 text-green-800 hover:bg-gray-300 w-[50%] font-semibold'>
                                 <i className="fa-regular fa-eye"></i>
                                 <span>Preview</span>
-                            </a>
+                            </Link>
                             
-                            <a href="" className='flex gap-2 justify-center items-center py-3 px-5 border-[0.1px] rounded-[10px] bg-gray-200 border-gray-100 text-green-800 hover:bg-gray-300 flex-1 font-semibold'>
+                            <Link to="" className='flex gap-2 justify-center items-center py-3 px-5 border-[0.1px] rounded-[10px] bg-gray-200 border-gray-100 text-green-800 hover:bg-gray-300 flex-1 font-semibold'>
                                 <i className="fa-solid fa-download"></i>
                                 <span>Download</span>
-                            </a>
+                            </Link>
                             
 
 

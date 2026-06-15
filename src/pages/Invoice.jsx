@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import userImg from '../assets/images/user-img.jpg'
 import iphone13 from '../assets/images/iphone-13-pm.png'
 import netflix from '../assets/images/netflix.png'
@@ -19,14 +20,14 @@ const Invoice = () => {
                 </div>
 
                 <div className='flex gap-5 items-center'>
-                    <a href="/dashboard/invoice2" className='inline-flex gap-2 items-center bg-lime-500 px-4 py-3 rounded-[15px] hover:bg-lime-300 hover:cursor-pointer'>
+                    <Link to="/dashboard/invoice2" className='inline-flex gap-2 items-center bg-lime-500 px-4 py-3 rounded-[15px] hover:bg-lime-300 hover:cursor-pointer'>
                         <i className="fa-solid fa-file-invoice-dollar"></i>
                         <span>Create Invoice</span>
-                    </a>
-                    <a className='inline-flex gap-2 items-center border-[0.1px] border-gray-200 px-4 py-3 rounded-[15px] hover:bg-gray-200 hover:cursor-pointer'>
+                    </Link>
+                    <Link className='inline-flex gap-2 items-center border-[0.1px] border-gray-200 px-4 py-3 rounded-[15px] hover:bg-gray-200 hover:cursor-pointer' to="">
                         <i className="fa-solid fa-sliders"></i>
                         <span>Filter</span>
-                    </a>
+                    </Link>
                 </div>
             </div>
             <div className="transaction-table">

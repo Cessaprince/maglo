@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import userImg from '../assets/images/user-img.jpg'
 import iphone13 from '../assets/images/iphone-13-pm.png'
 import netflix from '../assets/images/netflix.png'
@@ -57,7 +58,7 @@ const Transaction = () => {
                             </td>
                             <td className='uppercase py-[5px] pr-[14px] text-left text-sm text-gray-400 font-light'>mgl0124877</td>
                             <td className='capitalize py-[5px] pr-[14px] text-left text-black text-sm font-semibold'>
-                                <a href="" className='py-3 px-5 border-[0.px] border-gray-100 bg-lime-500 w-[50px] h-[30px] rounded-[5px] hover:bg-lime-400'>View</a>
+                                <Link to="" className='py-3 px-5 border-[0.px] border-gray-100 bg-lime-500 w-[50px] h-[30px] rounded-[5px] hover:bg-lime-400'>View</Link>
                             </td>
                         </tr>
 
@@ -85,7 +86,7 @@ const Transaction = () => {
                             </td>
                             <td className='uppercase py-[5px] pr-[14px] text-left text-sm text-gray-400 font-light'>mgl0124877</td>
                             <td className='capitalize py-[5px] pr-[14px] text-left text-black text-sm font-semibold'>
-                                <a href="" className='py-3 px-5 border-[0.px] border-gray-100 bg-lime-500 w-[50px] h-[30px] rounded-[5px] hover:bg-lime-400'>View</a>
+                                <Link to="" className='py-3 px-5 border-[0.px] border-gray-100 bg-lime-500 w-[50px] h-[30px] rounded-[5px] hover:bg-lime-400'>View</Link>
                             </td>
                         </tr>
 
@@ -114,7 +115,7 @@ const Transaction = () => {
                             </td>
                             <td className='uppercase py-[5px] pr-[14px] text-left text-sm text-gray-400 font-light'>mgl0124877</td>
                             <td className='capitalize py-[5px] pr-[14px] text-left text-black text-sm font-semibold'>
-                                <a href="" className='py-3 px-5 border-[0.px] border-gray-100 bg-lime-500 w-[50px] h-[30px] rounded-[5px] hover:bg-lime-400'>View</a>
+                                <Link to="" className='py-3 px-5 border-[0.px] border-gray-100 bg-lime-500 w-[50px] h-[30px] rounded-[5px] hover:bg-lime-400'>View</Link>
                             </td>
                         </tr>
 
@@ -141,7 +142,7 @@ const Transaction = () => {
                             </td>
                             <td className='uppercase py-[5px] pr-[14px] text-left text-sm text-gray-400 font-light'>mgl0124877</td>
                             <td className='capitalize py-[5px] pr-[14px] text-left text-black text-sm font-semibold'>
-                                <a href="" className='py-3 px-5 border-[0.px] border-gray-100 bg-lime-500 w-[50px] h-[30px] rounded-[5px] hover:bg-lime-400'>View</a>
+                                <Link to="" className='py-3 px-5 border-[0.px] border-gray-100 bg-lime-500 w-[50px] h-[30px] rounded-[5px] hover:bg-lime-400'>View</Link>
                             </td>
                         </tr>
 
@@ -169,7 +170,7 @@ const Transaction = () => {
                             </td>
                             <td className='uppercase py-[5px] pr-[14px] text-left text-sm text-gray-400 font-light'>mgl0124877</td>
                             <td className='capitalize py-[5px] pr-[14px] text-left text-black text-sm font-semibold'>
-                                <a href="" className='py-3 px-5 border-[0.px] border-gray-100 bg-lime-500 w-[50px] h-[30px] rounded-[5px] hover:bg-lime-400'>View</a>
+                                <Link to="" className='py-3 px-5 border-[0.px] border-gray-100 bg-lime-500 w-[50px] h-[30px] rounded-[5px] hover:bg-lime-400'>View</Link>
                             </td>
                         </tr>
 
@@ -197,7 +198,7 @@ const Transaction = () => {
                             </td>
                             <td className='uppercase py-[5px] pr-[14px] text-left text-sm text-gray-400 font-light'>mgl0124877</td>
                             <td className='capitalize py-[5px] pr-[14px] text-left text-black text-sm font-semibold'>
-                                <a href="" className='py-3 px-5 border-[0.px] border-gray-100 bg-lime-500 w-[50px] h-[30px] rounded-[5px] hover:bg-lime-400'>View</a>
+                                <Link to="" className='py-3 px-5 border-[0.px] border-gray-100 bg-lime-500 w-[50px] h-[30px] rounded-[5px] hover:bg-lime-400'>View</Link>
                             </td>
                         </tr>
 
@@ -224,7 +225,7 @@ const Transaction = () => {
                             </td>
                             <td className='uppercase py-[5px] pr-[14px] text-left text-sm text-gray-400 font-light'>mgl0124877</td>
                             <td className='capitalize py-[5px] pr-[14px] text-left text-black text-sm font-semibold'>
-                                <a href="" className='py-3 px-5 border-[0.px] border-gray-100 bg-lime-500 w-[50px] h-[30px] rounded-[5px] hover:bg-lime-400'>View</a>
+                                <Link to="" className='py-3 px-5 border-[0.px] border-gray-100 bg-lime-500 w-[50px] h-[30px] rounded-[5px] hover:bg-lime-400'>View</Link>
                             </td>
                         </tr>
 
@@ -251,7 +252,7 @@ const Transaction = () => {
                             </td>
                             <td className='uppercase py-[5px] pr-[14px] text-left text-sm text-gray-400 font-light'>mgl0124877</td>
                             <td className='capitalize py-[5px] pr-[14px] text-left text-black text-sm font-semibold'>
-                                <a href="" className='py-3 px-5 border-[0.px] border-gray-100 bg-lime-500 w-[50px] h-[30px] rounded-[5px] hover:bg-lime-400'>View</a>
+                                <Link to="" className='py-3 px-5 border-[0.px] border-gray-100 bg-lime-500 w-[50px] h-[30px] rounded-[5px] hover:bg-lime-400'>View</Link>
                             </td>
                         </tr>
 

@@ -1,4 +1,5 @@
 import logoImage from '../assets/images/logo.jpg'
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
   return (
@@ -14,47 +15,43 @@ const Sidebar = () => {
         </div>
 
         <div className="sidebar-links flex flex-col gap-1 mt-9">
-            <a href="/dashboard/" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
-                <i className="fa-solid fa-house"></i> 
-                Dashboard
-            </a>            
+            <Link to="/dashboard" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
+            <i className="fa-solid fa-house"></i> 
+            Dashboard
+            </Link>            
 
-            <a href="/dashboard/transaction" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
-                <i class="fa-solid fa-money-bill-transfer"></i> 
-                Transactions
-            </a>   
+            <Link to="/dashboard/transaction" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
+            <i className="fa-solid fa-money-bill-transfer"></i> 
+            Transactions
+            </Link>   
 
-            <a href="/dashboard/invoice" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
-                <i class="fa-solid fa-file-invoice-dollar"></i>
-                Invoices
-            </a>               
-             
-            <a href="/dashboard/wallet" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
-                <i class="fa-solid fa-wallet"></i> 
-                Wallet
-            </a>                
+            <Link to="/dashboard/invoice" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
+            <i className="fa-solid fa-file-invoice-dollar"></i>
+            Invoices
+            </Link>               
             
-            <a href="/dashboard/settings1" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
-                <i class="fa-solid fa-gear"></i> 
-                Settings
-            </a>               
-
-
+            <Link to="/dashboard/wallet" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
+            <i className="fa-solid fa-wallet"></i> 
+            Wallet
+            </Link>                
+            
+            <Link to="/dashboard/settings1" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
+            <i className="fa-solid fa-gear"></i> 
+            Settings
+            </Link>               
         </div>
 
-
-        <div className="sidebar-down-links flex flex-col gap-1 mt-50">
-            <a href="" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
-                <i class="fa-solid fa-circle-question"></i>
-                Help
-            </a>                
-            
-            <a href="/" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
-                <i class="fa-solid fa-right-from-bracket"></i> 
-                Logout
-            </a>   
-
-        </div>
+      <div className="sidebar-down-links flex flex-col gap-1 mt-50">
+        <Link to="/dashboard/help" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
+        <i className="fa-solid fa-circle-question"></i>
+        Help
+        </Link>                
+        
+        <Link to="/" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
+        <i className="fa-solid fa-right-from-bracket"></i> 
+        Logout
+        </Link>   
+      </div>
 
 
     </div>

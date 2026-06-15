@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
@@ -138,7 +139,7 @@ const Login = () => {
               </button>
 
               <div className="flex sign-up items-center justify-center gap-2 text-sm">
-                  <span className='text-gray-500 text-sm'>Don't have an account?</span><a className='font-semibold hover:text-red-400 cursor-pointer' href="/register">Sign up for free</a>
+                  <span className='text-gray-500 text-sm'>Don't have an account?</span><Link className='font-semibold hover:text-red-400 cursor-pointer' to="/register">Sign up for free</Link>
               </div>
             </form>
 

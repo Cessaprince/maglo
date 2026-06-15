@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import graph from '../assets/images/Graph.png'
 import userImg from '../assets/images/person.png'
 import Card from '../components/Card'
@@ -66,7 +67,7 @@ const Home = () => {
                     <div className="transaction-table">
                         <div className="table-head flex justify-between align-items">
                             <h3 className='text-lg font-[520]'>Recent Transaction</h3>
-                            <a href="/dashboard/transaction" className='text-sm text-green-800 hover:pointer hover:text-green-500'>View All →</a>
+                            <Link to="/dashboard/transaction" className='text-sm text-green-800 hover:pointer hover:text-green-500'>View All →</Link>
                         </div>
 
                         <table className='border-collapse w-full'>
@@ -154,7 +155,7 @@ const Home = () => {
                     
                     <div className="transfers-head flex justify-between">
                         <h3 className='text-lg font-[520]'>Scheduled Transfers</h3>
-                        <a href="" className='text-sm text-green-800 hover:pointer hover:text-green-500'>View All →</a>
+                        <Link to="" className='text-sm text-green-800 hover:pointer hover:text-green-500'>View All →</Link>
                     </div>
 
 

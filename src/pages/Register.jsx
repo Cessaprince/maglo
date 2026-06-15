@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
 import { useNavigate } from "react-router-dom";
@@ -135,11 +136,11 @@ const Register = () => {
               </button>              
               <button className='google-btn w-full border-solid border-1 p-[10px] rounded-[5px] border-gray-300 outline-none hover:bg-gray-400 text-sm'>
                 <i className="devicon-google-plain colored px-2"></i>
-                <span className='text-black-300 font-normal'>Sign up with google</span>
+                <Link className='text-black-300 font-normal' to="" >Sign up with google</Link>
               </button>
 
               <div className="flex sign-up items-center justify-center gap-2 text-sm">
-                  <span className='text-gray-500 text-sm'>Already have an account?</span><a className='font-semibold hover:text-red-400 cursor-pointer'>Sign in</a>
+                  <span className='text-gray-500 text-sm'>Already have an account?</span><Link className='font-semibold hover:text-red-400 cursor-pointer' to='/'>Sign in</Link>
               </div>
             </form>
 
