@@ -1,5 +1,13 @@
 import React from 'react'
+import userImg from '../assets/images/user-img.jpg'
 import iphone13 from '../assets/images/iphone-13-pm.png'
+import netflix from '../assets/images/netflix.png'
+import figma from '../assets/images/figma.png'
+import bitcoin from '../assets/images/bitcoin.png'
+import person from '../assets/images/person.png'
+import instagram from '../assets/images/instagram.jpeg'
+import uihut from '../assets/images/uihut.png'
+import citi from '../assets/images/citi.png'
 
 const Invoice = () => {
     return (
@@ -11,7 +19,7 @@ const Invoice = () => {
                 </div>
 
                 <div className='flex gap-5 items-center'>
-                    <a href="invoice2" className='inline-flex gap-2 items-center bg-lime-500 px-4 py-3 rounded-[15px] hover:bg-lime-300 hover:cursor-pointer'>
+                    <a href="/dashboard/invoice2" className='inline-flex gap-2 items-center bg-lime-500 px-4 py-3 rounded-[15px] hover:bg-lime-300 hover:cursor-pointer'>
                         <i className="fa-solid fa-file-invoice-dollar"></i>
                         <span>Create Invoice</span>
                     </a>
@@ -40,11 +48,11 @@ const Invoice = () => {
                             <td className='border-b border-gray-100 capitalize py-[5px] text-left'>
                                 <div className="table-data flex items-center gap-2">
                                     <div className="data-img overflow-hidden w-[40px] h-[40px] rounded-[5px]">
-                                        <img src={iphone13} alt="" className='w-full h-full cover' />
+                                        <img src={figma} alt="" className='w-full h-full cover' />
                                     </div>
                                     <div className="data-name flex flex-col">
-                                        <span className='text-sm font-semibold'>iphone 13 pro max</span>
-                                        <span className='text-xs text-gray-400 font-light'>Apple Inc</span>
+                                        <span className='text-sm font-semibold'>figma subscription</span>
+                                        <span className='text-xs text-gray-400 font-light'>inv: MGL524245</span>
                                     </div>
                                 </div>
                             </td>
@@ -72,7 +80,7 @@ const Invoice = () => {
                                     </div>
                                     <div className="data-name flex flex-col">
                                         <span className='text-sm font-semibold'>iphone 13 pro max</span>
-                                        <span className='text-xs text-gray-400 font-light'>Apple Inc</span>
+                                        <span className='text-xs text-gray-400 font-light'>inv: MGL524245</span>
                                     </div>
                                 </div>
                             </td>
@@ -96,11 +104,11 @@ const Invoice = () => {
                             <td className='border-b border-gray-100 capitalize py-[5px] text-left'>
                                 <div className="table-data flex items-center gap-2">
                                     <div className="data-img overflow-hidden w-[40px] h-[40px] rounded-[5px]">
-                                        <img src={iphone13} alt="" className='w-full h-full cover' />
+                                        <img src={person} alt="" className='w-full h-full cover' />
                                     </div>
                                     <div className="data-name flex flex-col">
-                                        <span className='text-sm font-semibold'>iphone 13 pro max</span>
-                                        <span className='text-xs text-gray-400 font-light'>Apple Inc</span>
+                                        <span className='text-sm font-semibold'>Jack dawson eric</span>
+                                        <span className='text-xs text-gray-400 font-light'>inv: MGL524245</span>
                                     </div>
                                 </div>
                             </td>
@@ -124,11 +132,11 @@ const Invoice = () => {
                             <td className='border-b border-gray-100 capitalize py-[5px] text-left'>
                                 <div className="table-data flex items-center gap-2">
                                     <div className="data-img overflow-hidden w-[40px] h-[40px] rounded-[5px]">
-                                        <img src={iphone13} alt="" className='w-full h-full cover' />
+                                        <img src={uihut} alt="" className='w-full h-full cover' />
                                     </div>
                                     <div className="data-name flex flex-col">
-                                        <span className='text-sm font-semibold'>iphone 13 pro max</span>
-                                        <span className='text-xs text-gray-400 font-light'>Apple Inc</span>
+                                        <span className='text-sm font-semibold'>UIHUT subscription</span>
+                                        <span className='text-xs text-gray-400 font-light'>inv: MGL524245</span>
                                     </div>
                                 </div>
                             </td>
@@ -153,11 +161,11 @@ const Invoice = () => {
                             <td className='border-b border-gray-100 capitalize py-[5px] text-left'>
                                 <div className="table-data flex items-center gap-2">
                                     <div className="data-img overflow-hidden w-[40px] h-[40px] rounded-[5px]">
-                                        <img src={iphone13} alt="" className='w-full h-full cover' />
+                                        <img src={citi} alt="" className='w-full h-full cover' />
                                     </div>
                                     <div className="data-name flex flex-col">
-                                        <span className='text-sm font-semibold'>iphone 13 pro max</span>
-                                        <span className='text-xs text-gray-400 font-light'>Apple Inc</span>
+                                        <span className='text-sm font-semibold'>Citi Bank Ltd.</span>
+                                        <span className='text-xs text-gray-400 font-light'>inv: MGL524245</span>
                                     </div>
                                 </div>
                             </td>
@@ -181,11 +189,11 @@ const Invoice = () => {
                             <td className='border-b border-gray-100 capitalize py-[5px] text-left'>
                                 <div className="table-data flex items-center gap-2">
                                     <div className="data-img overflow-hidden w-[40px] h-[40px] rounded-[5px]">
-                                        <img src={iphone13} alt="" className='w-full h-full cover' />
+                                        <img src={bitcoin} alt="" className='w-full h-full cover' />
                                     </div>
                                     <div className="data-name flex flex-col">
-                                        <span className='text-sm font-semibold'>iphone 13 pro max</span>
-                                        <span className='text-xs text-gray-400 font-light'>Apple Inc</span>
+                                        <span className='text-sm font-semibold'>Bitcoin transaction</span>
+                                        <span className='text-xs text-gray-400 font-light'>inv: MGL524245</span>
                                     </div>
                                 </div>
                             </td>
@@ -209,11 +217,11 @@ const Invoice = () => {
                             <td className='border-b border-gray-100 capitalize py-[5px] text-left'>
                                 <div className="table-data flex items-center gap-2">
                                     <div className="data-img overflow-hidden w-[40px] h-[40px] rounded-[5px]">
-                                        <img src={iphone13} alt="" className='w-full h-full cover' />
+                                        <img src={netflix} alt="" className='w-full h-full cover' />
                                     </div>
                                     <div className="data-name flex flex-col">
-                                        <span className='text-sm font-semibold'>iphone 13 pro max</span>
-                                        <span className='text-xs text-gray-400 font-light'>Apple Inc</span>
+                                        <span className='text-sm font-semibold'>Netflix subscription</span>
+                                        <span className='text-xs text-gray-400 font-light'>inv: MGL524245</span>
                                     </div>
                                 </div>
                             </td>
@@ -237,11 +245,11 @@ const Invoice = () => {
                             <td className='border-b border-gray-100 capitalize py-[5px] text-left'>
                                 <div className="table-data flex items-center gap-2">
                                     <div className="data-img overflow-hidden w-[40px] h-[40px] rounded-[5px]">
-                                        <img src={iphone13} alt="" className='w-full h-full cover' />
+                                        <img src={person} alt="" className='w-full h-full cover' />
                                     </div>
                                     <div className="data-name flex flex-col">
-                                        <span className='text-sm font-semibold'>iphone 13 pro max</span>
-                                        <span className='text-xs text-gray-400 font-light'>Apple Inc</span>
+                                        <span className='text-sm font-semibold'>Rahman Sajib</span>
+                                        <span className='text-xs text-gray-400 font-light'>inv: MGL524245</span>
                                     </div>
                                 </div>
                             </td>

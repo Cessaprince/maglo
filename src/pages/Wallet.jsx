@@ -70,7 +70,7 @@ const Wallet = () => {
                     <div className="flex justify-between items-center w-full">
                         <div className="flex items-center gap-4">
                             <div className="h-[40px] w-[40px] overflow-hidden rounded-[10px]">
-                                <img src="" alt="" className='w-full h-full object-cover'/>
+                                <img src={payoneer} alt="" className='w-full h-full object-cover'/>
                             </div>
                             <div className="flex flex-col">
                                 <span className='text-black text-sm font-semibold capitalize'>payoneer</span>
@@ -84,10 +84,10 @@ const Wallet = () => {
                     <div className="flex justify-between items-center w-full">
                         <div className="flex items-center gap-4">
                             <div className="h-[40px] w-[40px] overflow-hidden rounded-[10px]">
-                                <img src="" alt="" className='w-full h-full object-cover'/>
+                                <img src={remitly} alt="" className='w-full h-full object-cover'/>
                             </div>
                             <div className="flex flex-col">
-                                <span className='text-black text-sm font-semibold capitalize'>payoneer</span>
+                                <span className='text-black text-sm font-semibold capitalize'>remitly</span>
                                 <span className='text-sm text-gray-400 font-light'>20 Apr 2022, 06:55 PM</span>
                             </div>
                         </div>
@@ -98,10 +98,10 @@ const Wallet = () => {
                     <div className="flex justify-between items-center w-full">
                         <div className="flex items-center gap-4">
                             <div className="h-[40px] w-[40px] overflow-hidden rounded-[10px]">
-                                <img src="" alt="" className='w-full h-full object-cover'/>
+                                <img src={wise} alt="" className='w-full h-full object-cover'/>
                             </div>
                             <div className="flex flex-col">
-                                <span className='text-black text-sm font-semibold capitalize'>payoneer</span>
+                                <span className='text-black text-sm font-semibold capitalize'>wise</span>
                                 <span className='text-sm text-gray-400 font-light'>20 Apr 2022, 06:55 PM</span>
                             </div>
                         </div>
@@ -112,10 +112,10 @@ const Wallet = () => {
                     <div className="flex justify-between items-center w-full">
                         <div className="flex items-center gap-4">
                             <div className="h-[40px] w-[40px] overflow-hidden rounded-[10px]">
-                                <img src="" alt="" className='w-full h-full object-cover'/>
+                                <img src={paypal} alt="" className='w-full h-full object-cover'/>
                             </div>
                             <div className="flex flex-col">
-                                <span className='text-black text-sm font-semibold capitalize'>payoneer</span>
+                                <span className='text-black text-sm font-semibold capitalize'>paypal</span>
                                 <span className='text-sm text-gray-400 font-light'>20 Apr 2022, 06:55 PM</span>
                             </div>
                         </div>
@@ -132,10 +132,10 @@ const Wallet = () => {
                         <div className="flex justify-between items-center w-full">
                             <div className="flex items-center gap-4">
                                 <div className="h-[40px] w-[40px] overflow-hidden rounded-[10px]">
-                                    <img src="" alt="" className='w-full h-full object-cover'/>
+                                    <img src={facebook} alt="" className='w-full h-full object-cover'/>
                                 </div>
                                 <div className="flex flex-col">
-                                    <span className='text-black text-sm font-semibold capitalize'>payoneer</span>
+                                    <span className='text-black text-sm font-semibold capitalize'>facebook</span>
                                     <span className='text-sm text-gray-400 font-light'>20 Apr 2022, 06:55 PM</span>
                                 </div>
                             </div>
@@ -146,10 +146,10 @@ const Wallet = () => {
                         <div className="flex justify-between items-center w-full">
                             <div className="flex items-center gap-4">
                                 <div className="h-[40px] w-[40px] overflow-hidden rounded-[10px]">
-                                    <img src="" alt="" className='w-full h-full object-cover'/>
+                                    <img src={linkedin} alt="" className='w-full h-full object-cover'/>
                                 </div>
                                 <div className="flex flex-col">
-                                    <span className='text-black text-sm font-semibold capitalize'>payoneer</span>
+                                    <span className='text-black text-sm font-semibold capitalize'>linkedin</span>
                                     <span className='text-sm text-gray-400 font-light'>20 Apr 2022, 06:55 PM</span>
                                 </div>
                             </div>

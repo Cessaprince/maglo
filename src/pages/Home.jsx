@@ -1,7 +1,11 @@
 import React from 'react'
 import graph from '../assets/images/Graph.png'
-import userImg from '../assets/images/user-img.jpg'
+import userImg from '../assets/images/person.png'
 import Card from '../components/Card'
+import WorkingCapitalChart from '../components/WorkingCapitalChart'
+import figma from '../assets/images/figma.png'
+import netflix from '../assets/images/netflix.png'
+import iphone13 from '../assets/images/iphone-13-pm.png'
 
 
 const Home = () => {
@@ -54,7 +58,7 @@ const Home = () => {
 
                     {/*The graph */}
                     <div className="graph w-full">
-                        <img src={graph} alt="" className="w-full" />
+                        <WorkingCapitalChart />
                     </div>
 
 
@@ -62,7 +66,7 @@ const Home = () => {
                     <div className="transaction-table">
                         <div className="table-head flex justify-between align-items">
                             <h3 className='text-lg font-[520]'>Recent Transaction</h3>
-                            <a href="" className='text-sm text-green-800 hover:pointer hover:text-green-500'>View All →</a>
+                            <a href="/dashboard/transaction" className='text-sm text-green-800 hover:pointer hover:text-green-500'>View All →</a>
                         </div>
 
                         <table className='border-collapse w-full'>
@@ -80,14 +84,12 @@ const Home = () => {
                                 <tr>
                                     <td className='capitalize py-[5px] pr-[14px] text-left'>
                                         <div className="table-data flex items-center gap-2">
-                                            <div className='p-2 bg-gray-200 rounded-[5px]'>
-                                                <div className="data-img overflow-hidden w-[30px] h-[32px] rounded-[5px]">
-                                                    <img src={userImg} alt="" className='w-full h-full cover' />
-                                                </div>
+                                            <div className="data-img overflow-hidden w-[40px] h-[40px] rounded-[5px]">
+                                                <img src={iphone13} alt="" className='w-full h-full cover' />
                                             </div>
                                             <div className="data-name flex flex-col">
-                                                <span className='text-sm font-semibold'>iphone 13 pro max</span>
-                                                <span className='text-xs text-gray-400 font-semibold'>Apple Inc</span>
+                                                <span className='text-sm font-semibold'>iphone 13 pro MAX</span>
+                                                <span className='text-xs text-gray-400 font-light'>Netflix</span>
                                             </div>
                                         </div>
                                     </td>
@@ -101,14 +103,12 @@ const Home = () => {
                                 <tr>
                                     <td className='capitalize py-[5px] pr-[14px] text-left'>
                                         <div className="table-data flex items-center gap-2">
-                                            <div className='p-2 bg-gray-200 rounded-[5px]'>
-                                                <div className="data-img overflow-hidden w-[30px] h-[32px] rounded-[5px]">
-                                                    <img src={userImg} alt="" className='w-full h-full cover' />
-                                                </div>
+                                            <div className="data-img overflow-hidden w-[40px] h-[40px] rounded-[5px]">
+                                                <img src={netflix} alt="" className='w-full h-full cover' />
                                             </div>
                                             <div className="data-name flex flex-col">
-                                                <span className='capitalize text-sm font-semibold'>Netflix Subscription</span>
-                                                <span className='capitalize text-xs text-gray-400 font-semibold'>Netflix</span>
+                                                <span className='text-sm font-semibold'>Netflix subscription</span>
+                                                <span className='text-xs text-gray-400 font-light'>Netflix</span>
                                             </div>
                                         </div>
                                     </td>
@@ -122,14 +122,12 @@ const Home = () => {
                                 <tr>
                                     <td className='capitalize py-[5px] pr-[14px] text-left'>
                                         <div className="table-data flex items-center gap-2">
-                                            <div className='p-2 bg-gray-200 rounded-[5px]'>
-                                                <div className="data-img overflow-hidden w-[30px] h-[32px] rounded-[5px]">
-                                                    <img src={userImg} alt="" className='w-full h-full cover' />
-                                                </div>
+                                            <div className="data-img overflow-hidden w-[40px] h-[40px] rounded-[5px]">
+                                                <img src={figma} alt="" className='w-full h-full cover' />
                                             </div>
                                             <div className="data-name flex flex-col">
-                                                <span className='capitalize text-sm font-semibold'>Figma subscription</span>
-                                                <span className='capitalize text-xs text-gray-400 font-semibold'>Figma inc</span>
+                                                <span className='text-sm font-semibold'>Figma subscription</span>
+                                                <span className='text-xs text-gray-400 font-light'>figma</span>
                                             </div>
                                         </div>
                                     </td>
@@ -185,7 +183,7 @@ const Home = () => {
                                     <img src={userImg} alt="" className='cover h-full w-full cover'/>
                                 </div>
                                 <div className="user-transfer-details flex flex-col">
-                                    <span className='text-sm font-semibold'>Saleh Ahmed</span>
+                                    <span className='text-sm font-semibold'>Delowar Hossain</span>
                                     <span className='text-gray-400 text-xs font-light'>April 28, 2022 at 11.00</span>
                                 </div>
 
@@ -201,7 +199,7 @@ const Home = () => {
                                     <img src={userImg} alt="" className='cover h-full w-full cover'/>
                                 </div>
                                 <div className="user-transfer-details flex flex-col">
-                                    <span className='text-sm font-semibold'>Saleh Ahmed</span>
+                                    <span className='text-sm font-semibold'>Moinul Hassan Nayem</span>
                                     <span className='text-gray-400 text-xs font-light'>April 28, 2022 at 11.00</span>
                                 </div>
 
@@ -217,7 +215,7 @@ const Home = () => {
                                     <img src={userImg} alt="" className='cover h-full w-full cover'/>
                                 </div>
                                 <div className="user-transfer-details flex flex-col">
-                                    <span className='text-sm font-semibold'>Saleh Ahmed</span>
+                                    <span className='text-sm font-semibold'>Dr. Jubed Ahmed</span>
                                     <span className='text-gray-400 text-xs font-light'>April 28, 2022 at 11.00</span>
                                 </div>
 

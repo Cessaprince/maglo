@@ -17,10 +17,10 @@ function App() {
       <Routes>
 
       
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
         
-        <Route path="/" element={<Dashboard />}>
+        <Route path="/dashboard/" element={<Dashboard />}>
           <Route index element={<Home />} />
           <Route path="invoice" element={<Invoice />} />
           <Route path="invoice2" element={<Invoice2 />} />

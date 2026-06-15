@@ -1,9 +1,65 @@
-import React from 'react'
-
+import React, { useState } from "react";
+import iziToast from "izitoast";
+import "izitoast/dist/css/iziToast.min.css";
+import { useNavigate } from "react-router-dom";
 import loginImage from "../assets/images/login-img.jpg";
 import logoImage from "../assets/images/logo.jpg";
 
 const Register = () => {
+
+  const navigate = useNavigate();
+
+  const [fullname, setFullname] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  const [loading, setLoading] = useState(false);
+  const [passwordError, setPasswordError] = useState("");
+
+
+  let passwordErrorMessage;
+  if (passwordError) {
+    passwordErrorMessage = (
+      <span className="text-xs text-red-500">
+        {passwordError}
+      </span>
+    );
+  }
+
+  const handleRegister = () => {
+    if (!fullname || !email || !password) {
+      iziToast.error({
+        title: "Error",
+        message: "All fields are required",
+        position: "topRight",
+      });
+      return;
+    }
+
+    if (password.length < 8) {
+      iziToast.error({
+        title: "Error",
+        message: "Password must be at least 8 characters",
+        position: "topRight",
+      });
+      return;
+    }
+
+    setLoading(true);
+
+    setTimeout(() => {
+      setLoading(false);
+
+      iziToast.success({
+        title: "Success",
+        message: "Account created successfully",
+        position: "topRight",
+      });
+
+      navigate("/");
+    }, 2000);
+  };
+
   return (
     <div>
       <div className="auth-grid grid h-screen grid-cols-2 overflow-hidden">
@@ -25,17 +81,37 @@ const Register = () => {
             <form action="" className='flex flex-col gap-4 mt-[25px] w-[400px]'>
               <div className="auth-input flex flex-col gap-1">
                 <label htmlFor="fullname" className='text-xs font-normal'>Full Name</label>
-                <input type="text" name="fullname" id="fullname" placeholder="Mahfuzul Nabil" className='w-full border-solid border-1 p-[7px] text-sm rounded-[5px] border-gray-300 outline-none'/>
+                <input type="text" name="fullname" id="fullname" placeholder="Mahfuzul Nabil" className='w-full border-solid border-1 p-[7px] text-sm rounded-[5px] border-gray-300 outline-none'
+                  value={fullname}
+                  onChange={(e) => setFullname(e.target.value)}
+                />
               </div>
 
               <div className="auth-input flex flex-col gap-1">
                 <label htmlFor="email" className='text-xs font-normal'>Email</label>
-                <input type="email" name="email" id="email" placeholder="Enter your email" className='w-full border-solid border-1 p-[7px] text-sm rounded-[5px] border-gray-300 outline-none'/>
+                <input type="email" name="email" id="email" placeholder="Enter your email" className='w-full border-solid border-1 p-[7px] text-sm rounded-[5px] border-gray-300 outline-none'
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                />
               </div>
 
               <div className="auth-input flex flex-col gap-1 w-[400px]">
                 <label htmlFor="password" className='text-xs font-normal'>Password</label>
-                <input type="password" name="password" id="password" placeholder="●●●●●●●" className='w-full border-solid border-1 p-[7px] text-sm rounded-[5px] border-gray-300 outline-none'/>
+                <input type="password" name="password" id="password" placeholder="●●●●●●●" className='w-full border-solid border-1 p-[7px] text-sm rounded-[5px] border-gray-300 outline-none'
+                  value={password}
+                  onChange={(e) => {
+                    const value = e.target.value;
+                    setPassword(value);
+
+                    if (value.length < 8) {
+                      setPasswordError("Password must be at least 8 characters");
+                    } else {
+                      setPasswordError("");
+                    }
+                  }}
+                />
+                {passwordErrorMessage}
+
               </div>
 
               <div className="forgotPwd flex items-center justify-between">
@@ -47,7 +123,16 @@ const Register = () => {
                 <a href="" className='text-xs font-normal hover:text-red-400'>Forgot password?</a>
               </div>
 
-              <button className='create-acct-btn w-full border-solid border-1 p-[10px] text-sm rounded-[5px] border-gray-300 outline-none bg-lime-400 hover:bg-lime-600 font-semibold'>Create Account</button>
+              <button
+                type="button"
+                onClick={handleRegister}
+                disabled={loading}
+                className={`create-acct-btn w-full p-[10px] text-sm rounded-[5px] font-semibold ${
+                  loading ? "bg-gray-400" : "bg-lime-400 hover:bg-lime-600"
+                }`}
+              >
+                {loading ? "Creating account..." : "Create Account"}
+              </button>              
               <button className='google-btn w-full border-solid border-1 p-[10px] rounded-[5px] border-gray-300 outline-none hover:bg-gray-400 text-sm'>
                 <i className="devicon-google-plain colored px-2"></i>
                 <span className='text-black-300 font-normal'>Sign up with google</span>

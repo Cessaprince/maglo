@@ -14,27 +14,27 @@ const Sidebar = () => {
         </div>
 
         <div className="sidebar-links flex flex-col gap-1 mt-9">
-            <a href="" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
+            <a href="/dashboard/" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
                 <i className="fa-solid fa-house"></i> 
                 Dashboard
             </a>            
 
-            <a href="" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
+            <a href="/dashboard/transaction" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
                 <i class="fa-solid fa-money-bill-transfer"></i> 
                 Transactions
             </a>   
 
-            <a href="" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
+            <a href="/dashboard/invoice" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
                 <i class="fa-solid fa-file-invoice-dollar"></i>
                 Invoices
             </a>               
              
-            <a href="" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
+            <a href="/dashboard/wallet" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
                 <i class="fa-solid fa-wallet"></i> 
                 Wallet
             </a>                
             
-            <a href="" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
+            <a href="/dashboard/settings1" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
                 <i class="fa-solid fa-gear"></i> 
                 Settings
             </a>               
@@ -49,7 +49,7 @@ const Sidebar = () => {
                 Help
             </a>                
             
-            <a href="" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
+            <a href="/" className="p-3 border-[0.1px] border-gray-100 font-bold text-gray-500 rounded-[7px] text-sm inline-flex items-center gap-4 hover:bg-lime-400 hover:text-black">
                 <i class="fa-solid fa-right-from-bracket"></i> 
                 Logout
             </a>   

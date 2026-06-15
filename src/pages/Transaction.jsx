@@ -70,12 +70,12 @@ const Transaction = () => {
                                         <img src={netflix} alt="" className='w-full h-full cover' />
                                     </div>
                                     <div className="data-name flex flex-col">
-                                        <span className='text-sm font-semibold'>iphone 13 pro max</span>
-                                        <span className='text-xs text-gray-400 font-light'>Apple Inc</span>
+                                        <span className='text-sm font-semibold'>Netflix subscription</span>
+                                        <span className='text-xs text-gray-400 font-light'>Netflix</span>
                                     </div>
                                 </div>
                             </td>
-                            <td className='capitalize py-[5px] pr-[14px] text-left text-gray-400 text-sm font-light'>Mobile</td>
+                            <td className='capitalize py-[5px] pr-[14px] text-left text-gray-400 text-sm font-light'>Entertainment</td>
                             <td className='capitalize py-[5px] pr-[14px] text-left text-black text-sm font-semibold'>$420.84</td>
                             <td className='py-[5px] pr-[14px] text-left'>
                                 <div className="transaction-date flex flex-col gap-1">
@@ -99,12 +99,12 @@ const Transaction = () => {
                                         <img src={figma} alt="" className='w-full h-full cover' />
                                     </div>
                                     <div className="data-name flex flex-col">
-                                        <span className='text-sm font-semibold'>iphone 13 pro max</span>
-                                        <span className='text-xs text-gray-400 font-light'>Apple Inc</span>
+                                        <span className='text-sm font-semibold'>Figma subscription</span>
+                                        <span className='text-xs text-gray-400 font-light'>figma</span>
                                     </div>
                                 </div>
                             </td>
-                            <td className='capitalize py-[5px] pr-[14px] text-left text-gray-400 text-sm font-light'>Mobile</td>
+                            <td className='capitalize py-[5px] pr-[14px] text-left text-gray-400 text-sm font-light'>Software</td>
                             <td className='capitalize py-[5px] pr-[14px] text-left text-black text-sm font-semibold'>$420.84</td>
                             <td className='py-[5px] pr-[14px] text-left'>
                                 <div className="transaction-date flex flex-col gap-1">
@@ -126,12 +126,12 @@ const Transaction = () => {
                                         <img src={bitcoin} alt="" className='w-full h-full cover' />
                                     </div>
                                     <div className="data-name flex flex-col">
-                                        <span className='text-sm font-semibold'>iphone 13 pro max</span>
-                                        <span className='text-xs text-gray-400 font-light'>Apple Inc</span>
+                                        <span className='text-sm font-semibold'>bitcoin transaction</span>
+                                        <span className='text-xs text-gray-400 font-light'>coinbase</span>
                                     </div>
                                 </div>
                             </td>
-                            <td className='capitalize py-[5px] pr-[14px] text-left text-gray-400 text-sm font-light'>Mobile</td>
+                            <td className='capitalize py-[5px] pr-[14px] text-left text-gray-400 text-sm font-light'>technology</td>
                             <td className='capitalize py-[5px] pr-[14px] text-left text-black text-sm font-semibold'>$420.84</td>
                             <td className='py-[5px] pr-[14px] text-left'>
                                 <div className="transaction-date flex flex-col gap-1">
@@ -154,12 +154,12 @@ const Transaction = () => {
                                         <img src={person} alt="" className='w-full h-full cover' />
                                     </div>
                                     <div className="data-name flex flex-col">
-                                        <span className='text-sm font-semibold'>iphone 13 pro max</span>
-                                        <span className='text-xs text-gray-400 font-light'>Apple Inc</span>
+                                        <span className='text-sm font-semibold'>sajib rahman</span>
+                                        <span className='text-xs text-gray-400 font-light'>appsumo</span>
                                     </div>
                                 </div>
                             </td>
-                            <td className='capitalize py-[5px] pr-[14px] text-left text-gray-400 text-sm font-light'>Mobile</td>
+                            <td className='capitalize py-[5px] pr-[14px] text-left text-gray-400 text-sm font-light'>withdraw</td>
                             <td className='capitalize py-[5px] pr-[14px] text-left text-black text-sm font-semibold'>$420.84</td>
                             <td className='py-[5px] pr-[14px] text-left'>
                                 <div className="transaction-date flex flex-col gap-1">
@@ -182,12 +182,12 @@ const Transaction = () => {
                                         <img src={instagram} alt="" className='w-full h-full cover' />
                                     </div>
                                     <div className="data-name flex flex-col">
-                                        <span className='text-sm font-semibold'>iphone 13 pro max</span>
-                                        <span className='text-xs text-gray-400 font-light'>Apple Inc</span>
+                                        <span className='text-sm font-semibold'>instagram ads</span>
+                                        <span className='text-xs text-gray-400 font-light'>meta</span>
                                     </div>
                                 </div>
                             </td>
-                            <td className='capitalize py-[5px] pr-[14px] text-left text-gray-400 text-sm font-light'>Mobile</td>
+                            <td className='capitalize py-[5px] pr-[14px] text-left text-gray-400 text-sm font-light'>entertainment</td>
                             <td className='capitalize py-[5px] pr-[14px] text-left text-black text-sm font-semibold'>$420.84</td>
                             <td className='py-[5px] pr-[14px] text-left'>
                                 <div className="transaction-date flex flex-col gap-1">
@@ -209,12 +209,12 @@ const Transaction = () => {
                                         <img src={uihut} alt="" className='w-full h-full cover' />
                                     </div>
                                     <div className="data-name flex flex-col">
-                                        <span className='text-sm font-semibold'>iphone 13 pro max</span>
-                                        <span className='text-xs text-gray-400 font-light'>Apple Inc</span>
+                                        <span className='text-sm font-semibold'>UIHUT subscription</span>
+                                        <span className='text-xs text-gray-400 font-light'>UIHUT</span>
                                     </div>
                                 </div>
                             </td>
-                            <td className='capitalize py-[5px] pr-[14px] text-left text-gray-400 text-sm font-light'>Mobile</td>
+                            <td className='capitalize py-[5px] pr-[14px] text-left text-gray-400 text-sm font-light'>payment</td>
                             <td className='capitalize py-[5px] pr-[14px] text-left text-black text-sm font-semibold'>$420.84</td>
                             <td className='py-[5px] pr-[14px] text-left'>
                                 <div className="transaction-date flex flex-col gap-1">
@@ -236,12 +236,12 @@ const Transaction = () => {
                                         <img src={citi} alt="" className='w-full h-full cover' />
                                     </div>
                                     <div className="data-name flex flex-col">
-                                        <span className='text-sm font-semibold'>iphone 13 pro max</span>
+                                        <span className='text-sm font-semibold'>citi bank ltd.</span>
                                         <span className='text-xs text-gray-400 font-light'>Apple Inc</span>
                                     </div>
                                 </div>
                             </td>
-                            <td className='capitalize py-[5px] pr-[14px] text-left text-gray-400 text-sm font-light'>Mobile</td>
+                            <td className='capitalize py-[5px] pr-[14px] text-left text-gray-400 text-sm font-light'>withdraw</td>
                             <td className='capitalize py-[5px] pr-[14px] text-left text-black text-sm font-semibold'>$420.84</td>
                             <td className='py-[5px] pr-[14px] text-left'>
                                 <div className="transaction-date flex flex-col gap-1">
